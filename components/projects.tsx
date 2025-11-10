@@ -1,7 +1,5 @@
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { ExternalLink, Github } from "lucide-react"
 import Image from "next/image"
 
 export function Projects() {
@@ -11,26 +9,23 @@ export function Projects() {
       description:
         "Led end-to-end deployment of employee attrition prediction model using Azure ML ecosystem. Implemented MLOps pipeline with automated retraining, model monitoring, and A/B testing. Reduced voluntary turnover by 23% across 270,000+ employees.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      technologies: ["Azure ML", "Python", "MLflow", "Feast","Azure DevOps", "Dash","FastAPI", "Snowflake"],
-      github: "#",
-      demo: "#",
+      technologies: ["Azure ML", "Python", "MLRun", "Feast","Github", "Dash","FastAPI", "Snowflake"],
+  
     },
     {
       title: "Computer Vision Product Classifier & Quantification",
-      description: "Deep learning system for automated product categorization in e-commerce using CNNs and transfer learning. Processes millions of product images with 98%+ accuracy.",
+      description:
+        "End-to-end computer vision system for automated product recognition and inventory counting in retail environments. Combines object detection, instance segmentation, and classification using deep CNNs with transfer learning. Deployed on edge devices for real-time shelf monitoring, achieving 98%+ classification accuracy and 95%+ counting precision across 50,000+ SKUs. Reduced manual inventory audits by 60% and improved stock availability forecasting.",
       image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      technologies: ["PyTorch", "OpenCV", "AWS SageMaker", "FastAPI", "MongoDB"],
-      github: "#",
-      demo: "#",
+      technologies: ["PyTorch", "YOLO", "Detectron2", "TensorRT", "OpenCV", "Docker", "FastAPI", "MongoDB"],
     },
     {
-      title: "Natural Language Processing API",
+      title: "Segment Forecasting",
       description:
-        "Production NLP service for sentiment analysis, text classification, and entity extraction. Built with transformer models and optimized for high-throughput inference.",
-      image: "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      technologies: ["Transformers", "FastAPI", "Redis", "MLflow", "Docker"],
-      github: "#",
-      demo: "#",
+        "Enterprise-scale demand forecasting system delivering monthly batch predictions for customer segments and product categories. Combines time series models, gradient boosting, and ensemble methods to forecast revenue, volume, and conversion targets across 500+ segments. Automated pipeline orchestrates feature engineering, model training, and forecast generation with drift detection and automated retraining. Improved forecast accuracy by 35% and enabled proactive inventory planning, reducing stockouts by 40%.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      technologies: ["Prophet", "XGBoost", "ARIMA", "MLRun", "Python", "Snowflake", "Dash"],
+    
     },
   ]
 
@@ -79,24 +74,6 @@ export function Projects() {
                         {tech}
                       </Badge>
                     ))}
-                  </div>
-
-                  <div className="flex items-center gap-3 pt-2">
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className="gap-2 hover:bg-primary/5 hover:text-primary hover:border-primary/20 transition-colors bg-transparent"
-                    >
-                      <Github className="h-4 w-4" />
-                      Code
-                    </Button>
-                    <Button
-                      size="sm"
-                      className="gap-2 shadow-md shadow-primary/20 hover:shadow-lg hover:shadow-primary/30 transition-all"
-                    >
-                      <ExternalLink className="h-4 w-4" />
-                      Demo
-                    </Button>
                   </div>
                 </div>
               </Card>

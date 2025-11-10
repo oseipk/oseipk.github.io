@@ -22,7 +22,7 @@ export function Header() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-lg font-semibold hover:text-primary transition-colors">
-            {"<Your Name>"}
+            
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">
