@@ -27,8 +27,11 @@ export function Hero() {
               <Button
                 size="lg"
                 className="rounded-full shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all"
+                asChild
               >
-                View Resume
+                <Link href="/lib/src/resume.pdf" target="_blank" rel="noopener noreferrer">
+                  View Resume
+                </Link>
               </Button>
               <div className="flex items-center gap-3">
                 <Button

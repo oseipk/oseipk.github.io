@@ -5,29 +5,29 @@ import { ExternalLink } from "lucide-react"
 export function Experience() {
   const experiences = [
     {
-      period: "2024 — Present",
-      title: "Senior ML Engineer",
-      company: "AI Solutions Corp",
+      period: "2025 — Present",
+      title: "Full Stack Data Scientist",
+      company: "Nestlé People Analytics - Global (Remote)",
       description:
-        "Lead ML engineer responsible for designing and deploying production ML systems. Implemented MLOps practices including automated model retraining, monitoring, and A/B testing frameworks. Mentored junior ML engineers and collaborated with data science teams.",
-      technologies: ["Python", "TensorFlow", "MLflow", "Kubernetes", "AWS", "Docker"],
+        "• Addressed high voluntary turnover across 270,000+ global employees by building predictive analytics using CatBoost model for proactive retention strategies.\n• Led end-to-end deployment of enterprise attrition model using MLOps best practices for scalable workforce analytics\n• Architected complete ML pipeline with Azure ML, implemented automated retraining with MLflow, built real-time monitoring dashboard, and deployed model via FastAPI\n• Delivered 23% reduction in voluntary turnover through early intervention capabilities, enabling data-driven HR decisions across global operations",
+      technologies: ["SQL","Python", "Azure ML", "MLflow", "FastAPI", "Snowflake", "MLRun", "Feast", "Dash", "CatBoost"],
       link: "#",
     },
     {
-      period: "2022 — 2024",
-      title: "ML Engineer",
-      company: "DataTech Innovations",
+      period: "2023 — 2024",
+      title: "Analytics Specialist",
+      company: "Nestlé Business Services - Accra (Hybrid)",
       description:
-        "Developed and productionized computer vision and NLP models for enterprise clients. Built scalable inference pipelines and implemented model performance monitoring. Reduced model serving latency by 40% through optimization techniques.",
-      technologies: ["PyTorch", "OpenCV", "FastAPI", "PostgreSQL", "Redis", "Docker"],
+        "• Developed analytics solutions for business operations and supply chain optimization across Central & West Africa and Eastern & Southern African markets\n• Built automated reporting dashboards and data pipelines to support strategic decision-making for regional leadership\n• Implemented statistical models for demand forecasting and inventory management, reducing stockouts by 30%\n• Collaborated with cross-functional teams to drive data-driven process improvements and cost optimization initiatives",
+      technologies: ["Python", "SQL", "Power BI", "Excel", "Power Automate", "Power Apps", "Azure Data Factory", "Snowflake"],
       link: "#",
     },
     {
-      period: "2020 — 2022",
-      title: "Data Engineer",
-      company: "Analytics Pro",
+      period: "2020 — 2023",
+      title: "Data Scientist",
+      company: "KOA Switzerland AG (Hybrid)",
       description:
-        "Designed and maintained data pipelines for large-scale ML workflows. Implemented ETL processes for feature engineering and model training data. Collaborated with ML researchers to operationalize research prototypes.",
+        "• Designed and built route optimization system using advanced algorithms and machine learning to streamline logistics operations\n• Implemented real-time route planning and vehicle scheduling to minimize fuel consumption and delivery times\n• Analyzed transportation data and geographic constraints to develop predictive models for optimal routing\n• Achieved 46% reduction in organizational costs through improved fleet efficiency and resource optimization",
       technologies: ["Apache Spark", "Kafka", "Airflow", "Python", "SQL", "AWS"],
       link: "#",
     },
@@ -40,7 +40,7 @@ export function Experience() {
           <div className="space-y-4">
             <h2 className="text-4xl font-bold">Experience</h2>
             <p className="text-lg text-muted-foreground max-w-2xl text-pretty">
-              My professional journey in machine learning and data engineering, from building data pipelines to leading ML systems in production.
+              My professional journey in machine learning and data engineering, from building data pipelines to leading ML systems in production. 
             </p>
           </div>
 
