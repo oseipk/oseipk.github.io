@@ -15,7 +15,7 @@ export function Hero() {
             <div className="space-y-2">
               <p className="text-accent font-mono text-sm font-medium">Hi, I am</p>
               <h1 className="text-5xl md:text-6xl font-bold text-balance">OSEI PINAMANG KWADWO</h1>
-              <h2 className="text-3xl md:text-4xl font-bold text-primary">Full Stack ML Engineer</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-primary">ML Engineer</h2>
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-xl text-pretty">
@@ -29,9 +29,7 @@ export function Hero() {
                 className="rounded-full shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all"
                 asChild
               >
-                <Link href="/lib/src/resume.pdf" target="_blank" rel="noopener noreferrer">
-                  View Resume
-                </Link>
+                
               </Button>
               <div className="flex items-center gap-3">
                 <Button

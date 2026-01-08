@@ -5,11 +5,11 @@ import Image from "next/image"
 export function Projects() {
   const projects = [
     {
-      title: "Enterprise Attrition Model",
+      title: "Enterprise Attrition Platform",
       description:
-        "Led end-to-end deployment of employee attrition prediction model using Azure ML ecosystem. Implemented MLOps pipeline with automated retraining, model monitoring, and A/B testing. Reduced voluntary turnover by 23% across 270,000+ employees.",
+        "Led end-to-end building and deployment of employee attrition with survival modeling using Azure ML ecosystem. Implemented MLOps pipeline with monthly batch retraining, model monitoring, A/B testing and decision system. Reduced voluntary turnover by 23% across 270,000+ employees.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      technologies: ["Azure ML", "Python", "MLRun", "Feast","Github", "Dash","FastAPI", "Snowflake"],
+      technologies: ["Azure ML", "Python", "MLflow", "Blob Storage","Github", "Power BI","FastAPI", "Snowflake","Cox Proportional Hazard","Random Survival Forest"],
   
     },
     {
