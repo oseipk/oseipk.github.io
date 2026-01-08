@@ -29,7 +29,7 @@ export function Hero() {
                 className="rounded-full shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all"
                 asChild
               >
-                
+                <Link href="/contact">Get In Touch</Link>
               </Button>
               <div className="flex items-center gap-3">
                 <Button

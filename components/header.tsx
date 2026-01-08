@@ -22,10 +22,13 @@ export function Header() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-lg font-semibold hover:text-primary transition-colors">
-            
+            <span className="inline-block slide-text">Osei P.K.</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">
+            <Link href="/" className="text-sm hover:text-primary transition-colors">
+              Home
+            </Link>
             <Link href="/about" className="text-sm hover:text-primary transition-colors">
               About
             </Link>
