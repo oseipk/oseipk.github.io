@@ -7,10 +7,10 @@ export function Experience() {
     {
       period: "2025 — Present",
       title: "Full Stack Data Scientist",
-      company: "Nestlé People Analytics - Global (Remote)",
+      company: "Nestlé Global People Analytics (Remote)",
       description:
-        "• Addressed high voluntary turnover across 270,000+ global employees by building predictive analytics using CatBoost model for proactive retention strategies.\n• Led end-to-end deployment of enterprise attrition model using MLOps best practices for scalable workforce analytics\n• Architected complete ML pipeline with Azure ML, implemented automated retraining with MLflow, built real-time monitoring dashboard, and deployed model via FastAPI\n• Delivered 23% reduction in voluntary turnover through early intervention capabilities, enabling data-driven HR decisions across global operations",
-      technologies: ["SQL","Python", "Azure ML", "MLflow", "FastAPI", "Snowflake", "MLRun", "Feast", "Dash", "CatBoost"],
+        "• Led the design of an enterprise attrition intelligence system predicting near-term employee exits, translating model risk into auditable HR actions, and supporting monthly decision cycles across 270K+ employees with built-in governance and bias monitoring.",
+      technologies: ["SQL","Python", "Azure ML", "MLflow", "FastAPI", "Snowflake", "Power BI", "Blob Storage", "Dash", "Random Survival Forest","Cox Proportional Hazard"],
       link: "#",
     },
     {
