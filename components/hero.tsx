@@ -20,7 +20,7 @@ export function Hero() {
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-xl text-pretty">
               I specialize in designing, building, and productionizing end-to-end machine learning systems using MLOps best practices to deliver business value.
-              From data pipelines to model deployment, I bridge the gap between research and production.
+              From business problem framing through data pipelines to model deployment, I bridge the gap between research and production.
             </p>
 
             <div className="flex items-center gap-4 pt-4">
