@@ -15,7 +15,7 @@ export function Hero() {
             <div className="space-y-2">
               <p className="text-accent font-mono text-sm font-medium">Hi, I am</p>
               <h1 className="text-5xl md:text-6xl font-bold text-balance">OSEI PINAMANG KWADWO</h1>
-              <h2 className="text-3xl md:text-4xl font-bold text-primary">ML Engineer</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-primary">AI/ML Engineer</h2>
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-xl text-pretty">
