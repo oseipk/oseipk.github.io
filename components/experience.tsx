@@ -9,7 +9,7 @@ export function Experience() {
       title: "Full Stack Data Scientist",
       company: "Nestlé Global People Analytics (Remote)",
       description:
-        "• Led the design of an enterprise attrition intelligence system predicting near-term employee exits, translating model risk into auditable HR actions, and supporting monthly decision cycles across 270K+ employees with built-in governance and bias monitoring.",
+        "• Led the design of an enterprise attrition intelligence system predicting near-term employee exits, translating model risk into auditable HR actions, and supporting monthly decision cycles across 270K+ employees with built-in governance and bias monitoring, scaling from local markets through regionals to global.",
       technologies: ["SQL","Python","Github", "Azure ML", "MLflow", "FastAPI", "Snowflake", "Power BI", "Blob Storage", "Dash", "Random Survival Forest","Cox Proportional Hazard"],
       link: "#",
     },
