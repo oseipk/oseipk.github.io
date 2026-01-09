@@ -19,7 +19,7 @@ export function Hero() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-xl text-pretty">
-              I specialize in designing, building, and productionizing end-to-end machine learning systems using MLOps best practices to deliver business value.
+              I specialize in workflow automation, designing, building, and productionizing end-to-end machine learning systems using MLOps best practices to deliver business value.
               From business problem framing through data pipelines to model deployment, I bridge the gap between research and production.
             </p>
 
